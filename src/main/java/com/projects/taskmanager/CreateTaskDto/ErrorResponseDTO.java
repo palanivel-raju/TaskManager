@@ -5,13 +5,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
-
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-@NoArgsConstructor
-public class CreateTaskDTO {
-    private String title;
-    private String description;
-    private String deadline;
+public class ErrorResponseDTO {
+    private String error;
 }

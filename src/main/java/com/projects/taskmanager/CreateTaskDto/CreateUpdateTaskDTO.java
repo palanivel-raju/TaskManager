@@ -1,17 +1,14 @@
 package com.projects.taskmanager.CreateTaskDto;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
-
 @Getter
 @Setter
 @NoArgsConstructor
-public class CreateTaskDTO {
-    private String title;
+public class CreateUpdateTaskDTO {
     private String description;
     private String deadline;
+    private Boolean completed;
 }
